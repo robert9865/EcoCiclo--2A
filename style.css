@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "lexend";
+    src: url(font/Lexend-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lexend";
+}
+header{
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    height: 500px;
+}
+.logo {
+    font-size: 90px;
+}
+.subtitulo {
+    font-size: 36px;
+}
