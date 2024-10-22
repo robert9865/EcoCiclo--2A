@@ -13,10 +13,79 @@ header{
     background-image: url(img/fundo.png);
     background-size: cover;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
 }
 .logo {
     font-size: 90px;
+
 }
 .subtitulo {
     font-size: 36px;
+
+}
+.logo, .subtitulo {
+    padding-left: 60px;
+}
+#nossoProcesso {
+    background-color: #598C38;
+}
+#nossoProcesso .título {
+    padding-top: 60px;
+}
+.processo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grupo img {
+    width: 400px;
+}
+.grupo {
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px;
+}
+.título {
+    color: white;
+    font-size: 60px;
+    margin-left: 50px;
+    font-weight: 200;
+    /* o font-weight ajusta a "largura" da fonte */
+}
+#sobreNos{
+    background-color: #F4F3F3;
+}
+#sobreNos .título{
+    color: black;
+}
+.divisao h3 {
+    color: #598C38;
+    font-size: 48px;
+    font-weight: 400;
+}
+.divisao p {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: justify;
+
+}
+.divisao {
+    margin: 50px 60px 50px 60px ;
+}
+#sobreNos {
+    padding: 80px 0;
+}
+footer {
+    background-color: #598C38;
+    padding: 80px 60px;
+    color: white;
+}
+
+footer h4 {
+    margin-left: 60px;
+    font-weight: 300;
+    font-size: 40px;
 }
